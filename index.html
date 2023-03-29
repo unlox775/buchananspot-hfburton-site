@@ -1,0 +1,109 @@
+<html>
+<head>
+<SCRIPT LANGUAGE="JavaScript" SRC="calwork.js"></SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- hide from old browsers
+
+var daDate = new Date();
+var dd=daDate.getDate();
+var mm=daDate.getMonth();
+var yy=daDate.getFullYear();
+var hrs=daDate.getHours();
+var mns=daDate.getMinutes();
+var colon = ":";
+if (mns<10) { colon = ":0"; } else { colon = ":"; }
+var dateTxt = monthName(mm) + " " + dd + ", " + yy;
+// end of script hiding 1 -->
+</SCRIPT>
+</head>
+<body  bgcolor="#CCFFFF">
+<table border=0>
+<tr>
+<td><img src="images/BlueBorderFH.gif"></td>
+<td><h3><center>Heber Fielding and Mary Delecta Ballantyne Burton</center></h3>
+<h4><center>Family Organization Web Pages</center></h4></td>
+<td valign="bottom"><cite>Last update: 8/24/14 - jfb<br>(<a href="Latest.html">click here for list of recent updates</a>)</cite></td>
+</tr>
+</table>
+<table border=0>
+<tr>
+<td valign=top><hr/><b>NEWS</b><br/>
+<b> 2011 Burton Family Reunion</b><br>
+Rexburg Idaho<br>
+Sept. 3 and 10, 2011<br>
+Click <a href="2011BurtonReunion.html"> HERE </a> for details.
+<p><a href="news.html">News Items</a>
+<hr/>
+<p align=right>
+<form method="POST" action="" name ="calendar" id ="calendar">
+<center>
+<BUTTON name="prevButton" type="button" value="prevButton" id="prevButton" onMouseUp=doPrevMon()>
+<IMG src="left.gif" alt="previous month">
+</BUTTON>
+<BUTTON name="nextButton" type="button" value="nextButton" id="nextButton" onMouseUp =doNextMon()>
+<IMG src="right.gif" alt="next month">
+</BUTTON>
+<br>
+<TEXTAREA name="calDisplay" readonly rows = "9" cols = "22" wrap = "off" style="font-family: Courier; font-size: 9pt; border-style: none; overflow:hidden; BACKGROUND-COLOR: #FFFFFF">
+</TEXTAREA><br/>
+<input type="text" name="today" readonly size=20 value="" />
+</center>
+	<script type="text/javascript">
+	function doPrevMon() {
+	  mm -= 1;
+	  if (mm<0) {
+	    mm = 11;
+	    yy -= 1;
+	  }
+	  document.calendar.calDisplay.value = "\n" + makeCalendar(yy,mm,0,1);
+	}
+	function doNextMon() {
+	  mm += 1;
+	  if (mm>11) {
+	    mm = 0;
+	    yy += 1;
+	  }
+	  document.calendar.calDisplay.value = "\n" + makeCalendar(yy,mm,0,1);
+	}
+	</script>
+</form>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- hide from old browsers
+document.calendar.calDisplay.value = "\n" + makeCalendar(yy,mm,0,1);
+document.calendar.today.value = dateTxt;
+// end of script hiding -->
+</SCRIPT>
+</p>
+</td>
+<td valign=top><a href="images/Burton/HFBurtonFAM.html"><img src="images/HFBurton.jpg" width="190" height = "316"></a></td>
+<td valign=top><a href="images/Burton/HFBurtonFAM.html"><img src="images/MaryDBBurton.jpg" width="189" height = "316"></a></td>
+<td valign=top>
+<hr/>
+<a href="basicinfo.html">Information about <br/>the organization</a>
+<hr/><p><b>Contact information</b><br/>
+Family Representative:<br/>
+Beth Maynes<br>3021 Little Cottonwood Road<br>Sandy, UT  84092<br>(801) 942-5368<p>
+<a href="contact.html"><b>Other contact information</b></a>
+</td>
+</tr>
+<tr>
+<td valign=top>
+<a href="histories.html">Histories and Stories</a><br/>
+(Excluding patriarchal <br/>blessings and <br/>recent histories.<br/>
+Click on the <br/>right for those.)
+</td>
+<td valign = top><hr/>
+<a href="charts.html">Pedigree Charts and <br/>Family Group Information</a>
+</td>
+<td valign=top><hr/>
+<a href="photos.html">Photographs</a> and <a href="maps.html">Maps</a>
+</td>
+<td valign=top>
+<a href="res/index.html"><b>Materials restricted <br/>from the Public</b></a><br/>
+(restricted information,<br/> including recent histories,<br/> patriarchal blessings,<br/> temple information, etc.)<br/>
+Contact Joseph for the <br/>login and password.<br/>
+</td>
+</tr>
+</table>
+</body></html>

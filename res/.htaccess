@@ -1,0 +1,4 @@
+AuthName "Burton Ballantyne Private Information"
+AuthType Basic
+AuthUserFile /home/capnpcut/public_html/buchananspot.com/sites/HFBurton/res/.htpasswd
+Require valid-user

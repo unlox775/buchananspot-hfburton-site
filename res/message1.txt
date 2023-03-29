@@ -1,0 +1,1 @@
+From: "$full_name" <$email>To: <laanjak@buchananspot.com>Subject: Content Suggestion or SubmissionX-Originating-IP: $REMOTE_ADDRREQUEST FORM:    $HTTP_REFERERTIME:            $TIMEFull Name:       $full_namePhone Number:    $phoneEmail Address:   $emailSubmission:$submission

@@ -1,0 +1,1 @@
+From: "Heber F Burton Family Web Page" <order>To: $emailSubject: THANK YOU! This is to verify your submission for the Burton Family web site.  Please keep it for future reference.Submission Time:      $TIMEFull Name:       $full_namePhone Number:    $phoneSubmission or suggestion:$submissionThank you,Joseph Buchanan
